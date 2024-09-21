@@ -1,8 +1,8 @@
 import torch
 from torch.nn import functional as F
 
-from basicsr.utils.registry import MODEL_REGISTRY
-from basicsr.models.sr_model import SRModel
+from DAT.basicsr.utils.registry import MODEL_REGISTRY
+from DAT.basicsr.models.sr_model import SRModel
 
 
 @MODEL_REGISTRY.register()

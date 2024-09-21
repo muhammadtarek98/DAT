@@ -1,11 +1,11 @@
 from torch.utils import data as data
 from torchvision.transforms.functional import normalize
 
-from basicsr.data.data_util import paired_paths_from_folder, paired_paths_from_lmdb, paired_paths_from_meta_info_file
-from basicsr.data.transforms import augment, paired_random_crop
-from basicsr.utils import FileClient, imfrombytes, img2tensor
-from basicsr.utils.matlab_functions import bgr2ycbcr
-from basicsr.utils.registry import DATASET_REGISTRY
+from DAT.basicsr.data.data_util import paired_paths_from_folder, paired_paths_from_lmdb, paired_paths_from_meta_info_file
+from DAT.basicsr.data.transforms import augment, paired_random_crop
+from DAT.basicsr.utils import FileClient, imfrombytes, img2tensor
+from DAT.basicsr.utils.matlab_functions import bgr2ycbcr
+from DAT.basicsr.utils.registry import DATASET_REGISTRY
 
 import numpy as np
 
